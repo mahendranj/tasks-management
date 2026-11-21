@@ -1,0 +1,281 @@
+
+01-09-2026
+----------
+1. Implemented exception handling for other classess in SCIXL/Modbus.
+2. Prepare Sil-2 documents. - Yet to start.
+3. Started Release Notes for 1.6.2.1 with Modbus. 
+
+02-09-2026
+----------
+1. Implemented FlashBits in SCIXL K5BMC 1.6.2.2_ST. 
+2. Commit done in SVN. 
+
+03-09-2026
+----------
+1. Ping duration. with Validation display error message if entered value is < 100 OR > 10 seconds.
+2. Configurable Port Number. with Validation 
+3. Start address of Register. with Validation 
+4. Max address of Register. with Validation 
+
+[MODBUS] 					; ENABLED-1/DISABLED-0
+ENABLED_MODBUS_LOG=1
+ENABLED_DEV_LOGS=0
+LOGGING_MODE=1 ;SPLIT-1 COMBINED-2
+ENABLED_FLASHINGBITS=1
+LEAST_PING_DURATION_ALLOWED=100
+MODBUS_PORT=502
+START_REGISTER_ADDRESS=0
+MAX_REGISTER_ADDRESS=124
+
+04-09-2026
+----------
+1. Fixed MT Card issue.
+
+07-09-2026
+----------
+1. Synced Code in SVN and shared release exe for Testing.
+2. 
+
+
+08-09-2026
+----------
+1. K5D Sil-2. - TODO.
+2. Issue Log. - In Progress.
+3. Cerebrum. 
+4. Modbus Trigger Mail - Mr. Hari.
+
+09-09-2026
+----------
+1. K5BMC - Till Date - DCR/IA, Unit testing, Release Notes.
+	Started with DCR. - Completed.
+	IA.- Completed.
+	Unit Testing, 
+	System Testing, 
+	Release Notes. 
+	
+
+2. Trigger 1.6.2.1_UAT build. 
+3. Update Cerebrum.
+4. 
+
+
+10-09-2026
+-----------
+BS EN 50716:2023
+BS EN 50155 2023
+
+1) Meeting for SIL-2 with D. Gnanaskandan.
+2) Finalized SIL-2 K5D and K5BMC dates. 
+3) Weekly PPT. 
+4) Trigger Email sent to Internal Team for review. 
+
+
+11-09-2026
+----------
+1) Unit Testing for Releasing
+2) Understand and Enabled MultiPort to share for testing. 
+3) Dates for SIL2
+	a) K5BMC - 2020
+	b) K5D - 2022
+4) TMS name change in Test Cases.	
+	
+	
+12-09-2026
+----------
+1) SCIXL K5D v1.6.0.6 - 21"t July 2023
+2) SCIXL K5BMC 1.6.0.5 - 18th Jan 2021
+
+
+14-09-2026
+---------
+SWI1007-SCIXL-Software Verification & Validation Plan_1_6_0_7
+SWI1007-SCIXL-Impact Analysis_1_6_0_7
+CRS_1_6_0_7
+Software Requirement Specification - Ver 04 V1 R0
+Project Plan
+
+
+15-09-2026
+----------
+1) DCR & IA for Modbus Release. (Other documents are ready and synced in SVN).
+2) DCR for SCIXL K5D Sil 2 Certification. 
+3) SWI1007-SCIXL-Project Schedule_1_6_0_7
+4) Release Register Updated - 
+
+
+16-09-2026
+----------
+SIL2 certification discussion with External agency team
+1) Minor and Major - 
+2) Cofiguration table with Detailed.
+3) Architectural + technical. EPC. 
+4) Temperature -10 to +70, 
+5) Careful assess Certificate with Hardware. as it should be in detail. which cable, what type of connectors. in-detail.
+6) integration, testing, how we are fulfilling. Traceability Matrix for integration of application and EPC, functional specification. screen requirement. 50129
+7) Purpose matters. OEM purpose is different ours is different.
+
+
+17-09-2026
+----------
+Supporting UAT release of SCIXL K5BMC 1.6.2.2
+
+
+18-09-2026
+----------
+1) Supporting Simulation Testing and Testing UAT release of SCIXL K5BMC 1.6.2.2 in Kalyan
+2) Undersign Appointment Letter and Return.
+
+
+21-09-2026
+----------
+1) In lab crash issue found/noticed.
+2) Updating K5D Documents. 
+3) CRS & SRS to be updated.
+4) RTM Updated. 
+5) Current Version. Which OS, how long it is running ?. - Mailed. 
+6) Inform Mr. Pratik. - Done. Tomorrow morning he will be in Kalyan. 
+7) NTPClockSyncApp ??
+
+22-09-2026
+----------
+1) Follow Up & Support Kalyan Station data Preparation.
+2) Continuing with K5D SIL-2 documentation
+3) Validate few conditions in SCIXL for clarifying with Mr. Muthuraja team
+
+
+23-09-2026
+----------
+Meeting
+
+1) Writing from RDSO what parameters to be covered as per the OEM/Hardware. 
+2) discuss with RDSO get the requirement and also with TSTS Head and finalize then analyze the required is met/completed in Hardware Certificate.
+3) TAN/RDSO Specification.
+4) 50155 - Matrix/Checklist to be fulfilled. 
+5) send email - as per rdso and hardware configuration is aligned with requirement. so changes 123 and integration of hardware. 
+6) 50128 - 50716 (only delta or rewamp)? all documents should be updated and Documentation will be reduced.
+7) migration of old to new. new certificate. 
+8) continue with 128 + delta + hardware is also an option. 
+9) ISA - IVV
+10) Finalized 50128 + delta + Hardware. 
+Previous accessed.
+closed topics with version number.
+11) Finalized  50129 - new architecture for hardware documents. test cases, acceptance testing. 
+
+
+12) Closing Statement.
+
+ 50128 + delta + 50129 (Hardware Integration).
+
+50176 - RDSO
+
+->> 508 ->>
+
+1952 bit
+spare bits.
+
+
+10-1 and 2-7
+
+
+[TIME UPDATE]					; 1=TRUE,0=FALSE
+MTCCardTimeUpdate=0
+
+[TIME CORRECTION]
+EnableTimeCorrection=0 				; ENABLED-1/DISABLED-0
+IndicationFromEI = TIME_CORRECTION-OUT
+ControlToEI = TIME_CORRECTION
+TimeTolarance = 30				; In minutes
+TimeToBeCorrected = 18:30:00			; Time to update OS time in format hh:mm:ss
+OnTimeCorrection
+
+
+ADD_R147
+
+24-09-2026
+----------
+1) 10/15 Figures completed in ADD. [ADD_R148], [ADD_R149], [ADD_R150]
+
+Prepared By: Mahendran J
+Reviewed By: Mohamed Rafi A
+Approved By: Velan S
+Tester/Testing: Halesh B. V.
+
+
+25-09-2026
+----------
+1) Fixed K5D multiport issue.
+2) Fixed K5BMC Crash/MessageBox Issue.
+3) Analyzed Modbus 3 Second delay issue. 
+4) Added NEW CODE from Mail. 
+
+[EI_VDU_LOG]
+LOG_ENABLED = 1
+
+
+26-09-2026
+----------
+1) Fixing K5BMC Boundary Message Box. 
+
+
+28-09-2026
+----------
+1) EN50128:2011
+2) Windows Embedded Standard 7 OS - Windows 7
+3) K-VDU
+
+
+Folders
+========
+D:\My Files\SVN\Documentation\SCIXL K5D\SCIXL K5D 1.6.0.7 SIL-2
+C:\Users\mahendran.j\Desktop\SIL-2 Earlier Documents\K5D
+D:\My Files\SVN\Documentation\SIL
+D:\My Files\Local files\SIL-2
+
+29-09-2026
+-----------
+SCIXL K5D SIL2 Certification documentation for EN 50716:2023
+
+
+30-09-2026
+----------
+SCIXL K5D SIL2 Certification documentation for EN 50716:2023
+
+
+
+
+
+
+
+
+
+
+SIL
+---
+Recursive - Static Analysis
+Recursive - what to fix. Fix it and 
+
+unit testing. 
+documentation. 
+
+
+Must
+----
+Update Process Measures
+Update Adrenalin				- 
+Update Cerebrum					- 
+Update Manual TimeSheet	in Excel- 
+Update Issue-Log & Sync in SVN	- 
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/Technical Query/ISS/Technical Quaries WorkbenchConsole_Akshay
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/WorkbenchConsole
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/Updated documents
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SWBU_Products
+
+
+Input Files:- <<http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SGR/SCIXL K5D/SCIXL-K5D-1_6_0_6d>>
+Reference Files:- <<N/A>> (Optional)
+Output File:- <<http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SGR/SCIXL K5D/SCIXL-K5D-1_6_0_6d>>
+
+Associate Lead

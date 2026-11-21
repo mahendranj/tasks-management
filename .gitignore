@@ -1,0 +1,34 @@
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Environment variables and secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Logs and outputs (optional - keep for now)
+# Output/
+# Daily_Reports/
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+
+# Cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credentials
+credentials.txt
+secrets.txt
+auth.txt

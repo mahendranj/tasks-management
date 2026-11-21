@@ -1,0 +1,153 @@
+
+02-11-2026
+----------
+updated comments in Few K5D documents 
+
+GetREICommunicationLogStatus
+
+
+
+0) Issue Log 
+1) Maximum Optimization (Favor Speed) (/O2) in SCIXLResource
+2) Cerebrum.
+3) Excel based Parasoft Report for both K5D and K5BMC (Latest, Previous, SIL-2). Compare each with it's latest report and check if the problems has been reduced. 
+4) K5BMC latest fix with .bat batch file. / configuration / setup/build updates. 
+5) K5D Automation Script for 600+ Testing scenarios.
+6) Review Presentation for Tuesday to TQ Cert. -  Done. 
+7) below code for debugging
+
+#ifdef _DEBUG
+    int nDbgFlag = _CrtSetDbgFlag(_CRTDBG_REPORT_FLAG);
+
+    nDbgFlag |= _CRTDBG_ALLOC_MEM_DF;
+    nDbgFlag |= _CRTDBG_LEAK_CHECK_DF;
+
+    _CrtSetDbgFlag(nDbgFlag);
+#endif
+
+
+03-11-2026
+----------
+Meeting with TQCert.
+updated comments in Few K5D documents 
+
+
+04-11-2026
+----------
+Sharing FileHandle Fix K5BMC Code.
+DebugLog to InfoLog - Done. 
+// File Handle - 03-Nov-2026 - Done. 
+
+05-11-2026
+----------
+SDSC,
+SCTC,
+SRS
+ADD
+DDD
+
+
+11-11-2026
+----------
+
+[29]	-	Mahendran J.	-	30-09-2025	-	DCR 45: Extended EI communication support from a single port to 8 ports.
+[28]	-	Mahendran J.	-	30-12-2024	-	DCR 44: Added primary/secondary EI-to-VDU Ethernet connectivity status and 24-hour time display with minutes and seconds in the application status bar.
+
+TODO:
+1) Increment Revision Number
+1) Dakshinamurthy Gnanaskandan to Lokesh Sharma
+2) EN50128 to EN50716
+
+
+12-11-2026
+----------
+1) Manual update with DCR 44. 
+
+
+1) Check below keywords in ADD/DDD
+
+
+0. Mahendran J
+1. Yellow highlight.
+2. Needs Confirmation
+3. Tracking changes
+4. comment dated 2026
+5. 2026
+6. Display EI Primary and Secondary Ethernet Connectivity
+
+
+
+14-11-2026
+----------
+1) Shared K5BMC with MT and BitHeld Fix. 
+2) Shared updated cylomatic K5D.
+
+
+16-11-2026
+-----------
+1) Sharing CodeReview, CodeRequest, SDSC, SCTC, 
+2) Started implementing IfnDef directies for all .h files. 
+
+
+18-11-2026
+-----------
+1) Continuing implementing IfnDef directies for all .h files. 
+
+a) Static Analysis Fix
+
+1) D:\My Files\SVN\JenkinsNew\SCIXL-K5BMC-ST-MTFix-BitHeld-ControllerKeyINFix\SCIXLResource\SCIXLResource.vcxproj.filters
+21.bmp, key31.bmp">, key42.bmp">
+2) K5BMC Documentation
+
+
+
+
+
+    Please find the latest Projects under the SVN Paths:
+
+K5BMC: http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/JenkinsNew/SCIXL-K5BMC-ST
+
+K5D:
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/JenkinsNew/SCIXL-K5D-ST
+
+
+
+CODE: 
+1) VDUNAME supporting "_"
+2) GetKeyboardOperationOffset
+
+Prepared By: Mahendran J.
+Reviewed By: Mohamed Rafi A.
+Approved By: Velan S
+Tester/Testing: Halesh B. V.
+
+SIL
+---
+Recursive - Static Analysis
+Recursive - what to fix. Fix it and 
+
+unit testing. 
+documentation. 
+
+
+Must
+----
+Update Process Measures
+Update Adrenalin				- 
+Update Cerebrum					- 
+Update Manual TimeSheet	in Excel- 
+Update Issue-Log & Sync in SVN	- 
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/Technical Query/ISS/Technical Quaries WorkbenchConsole_Akshay
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/WorkbenchConsole
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/Updated documents
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SWBU_Products
+
+
+Input Files:- <<http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SGR/SCIXL K5D/SCIXL-K5D-1_6_0_6d>>
+Reference Files:- <<N/A>> (Optional)
+Output File:- <<http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SGR/SCIXL K5D/SCIXL-K5D-1_6_0_6d>>
+
+Associate Lead

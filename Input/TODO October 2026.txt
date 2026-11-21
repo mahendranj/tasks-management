@@ -1,0 +1,182 @@
+
+01-10-2026
+----------
+SCIXL K5D SIL2 Certification documentation for EN 50716:2023
+
+
+05-10-2026
+----------
+SCIXL K5D SIL2 Certification documentation for EN 50716:2023
+
+
+Smart Term Plan Plus. 
+
+K5BMC 
+1) Removed LogFile Directory - Already Exists
+2) 
+
+
+06-10-2026
+----------
+1) Remove from CRS_R081 and update from 85 to 95
+
+
+Master List of VDU (SCIXL K5D) software documents for SIL2 certification
+
+K5BMC
+-----
+DCR-1 → UI / Display
+→ CRS_R087
+DCR-2 → VDU Configuration & Deployment
+→ CRS_R088, CRS_R090
+DCR-3 → REI / Controller Communication
+→ CRS_R089
+DCR-4 → Command / Safety Logic
+→ CRS_R091, CRS_R092, CRS_R093
+DCR-5 → Platform Support
+→ CRS_R094
+
+07-10-2026
+----------
+
+
+08-10-2026
+----------
+1) Fixed Port 1 (Control command - Flow).
+2)
+
+09-10-2026
+----------
+1) Fixed Port 2 (Indication Data - Flow).
+
+2) Requirement for SIL2 - the design details available (message allocation per logical port, port configuration parameters and defaults, behaviour on loss of one port, changed classes/functions)? Port count is never stated.
+
+3) Requirement for SIL2 - Release Note. 
+
+12-10-2026
+----------
+1) Fixing memory issue for SCIXL K5BMC in Lab. 
+2) K5D Documentation 
+
+13-10-2026
+----------
+1) Fixing memory issue in SCIXL K5BMC. 
+2) K5D Documentation 
+
+14 and 15
+SCIXL K5D SIL2 Certification documentation for EN 50716:2023
+
+19-10-2026
+----------
+1) Fixed memory issue in lab.
+2) 
+
+20-10-2026 (WFH)
+----------
+1) Updating documents for SIL2 K5D
+
+
+22-10-2026
+----------
+1) Updated Comments in K5D. Synced the code in SVN. Mailed for release.
+2) Updated Comments in K5BMC. Synced the code in SVN. Mailed for release.
+3) Reviewed documents for SIL2 K5D. (SCIXL_K5D_ITCS_Test_Report)
+
+27-10-2026
+-----------
+1) DebugLog to InfoLog
+DEBUGLOG to INFO
+2) 23-10-2026
+3) THREADENTRY32
+
+27-10-2026
+-----------
+1) Fixing Multiport K5D
+
+29-10-2026
+-----------
+1) Fixed Multiport K5D. Tested all 3 scenarios.
+2) Synced both K5BMC and K5D Projects to SVN. 
+
+Below Fixes/Implementations Completed.
+
+K5BMC (1.6.0.5a) - All Logs Disabled - Crash Fix.
+
+K5D (1.6.0.6a) - Multiport all 3 Scenarios Fixed and Tested once.
+All Indication data in First Port.
+All Indication data in Second Port.
+Partial Indication data in one of the 7 Ports, and remaining Indication data in consecutive next Port. TODO - To Initiate Automation testing for Long Run.
+
+30-10-2026
+----------
+0) Issue Log 
+1) Timesheet. - Completed.
+2) Cerebrum.
+3) Excel based Parasoft Report for both K5D and K5BMC (Latest, Previous, SIL-2). Compare each with it's latest report and check if the problems has been reduced.
+4) K5BMC latest fix with .bat batch file. / configuration / setup/build updates. 
+5) K5D Automation Script for 600+ Testing scenarios.
+6) Review Presentation for Tuesday to TQ Cert.
+7) below code for debugging
+
+#ifdef _DEBUG
+    int nDbgFlag = _CrtSetDbgFlag(_CRTDBG_REPORT_FLAG);
+
+    nDbgFlag |= _CRTDBG_ALLOC_MEM_DF;
+    nDbgFlag |= _CRTDBG_LEAK_CHECK_DF;
+
+    _CrtSetDbgFlag(nDbgFlag);
+#endif
+
+
+    Please find the latest Projects under the SVN Paths:
+
+K5BMC: http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/JenkinsNew/SCIXL-K5BMC-ST
+
+K5D:
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/JenkinsNew/SCIXL-K5D-ST
+
+
+29-10-2026
+----------
+1) Comment K5D and initiate a build.
+
+
+CODE: 
+1) VDUNAME supporting "_"
+2) GetKeyboardOperationOffset
+
+Prepared By: Mahendran J
+Reviewed By: Mohamed Rafi A
+Approved By: Velan S
+Tester/Testing: Halesh B. V.
+
+SIL
+---
+Recursive - Static Analysis
+Recursive - what to fix. Fix it and 
+
+unit testing. 
+documentation. 
+
+
+Must
+----
+Update Process Measures
+Update Adrenalin				- 
+Update Cerebrum					- 
+Update Manual TimeSheet	in Excel- 
+Update Issue-Log & Sync in SVN	- 
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/Technical Query/ISS/Technical Quaries WorkbenchConsole_Akshay
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/WorkbenchConsole
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/Updated documents
+
+http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SWBU_Products
+
+
+Input Files:- <<http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SGR/SCIXL K5D/SCIXL-K5D-1_6_0_6d>>
+Reference Files:- <<N/A>> (Optional)
+Output File:- <<http://192.168.17.50/svn/sw_repo/trunk/SWBU_Products/SGR/SCIXL K5D/SCIXL-K5D-1_6_0_6d>>
+
+Associate Lead
