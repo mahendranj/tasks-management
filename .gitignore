@@ -15,6 +15,11 @@ Thumbs.db
 *.pem
 *.key
 
+# Sensitive data - NEVER commit plaintext
+Input/tasks.csv
+Input/tasks_decrypted.csv
+tasks_decrypted.csv
+
 # Logs and outputs (optional - keep for now)
 # Output/
 # Daily_Reports/
