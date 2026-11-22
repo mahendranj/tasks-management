@@ -1,0 +1,3 @@
+Run 2026-11-22T06:29:32Z: ABORTED before any task was created.
+ENCRYPTION_KEY, CEREBRUM_EMAIL and CEREBRUM_PASSWORD are not present in the environment.
+Input/tasks.csv.enc could not be decrypted; no login to Cerebrum P3 attempted. 0 tasks created.
