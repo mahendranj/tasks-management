@@ -1,0 +1,5 @@
+Date,Title,Description,Severity,Billing_Type
+02-11-2026,Updated comments in K5D documents,Fixed documentation for K5D module,High,Project
+03-11-2026,Meeting with TQCert,Attended certification review meeting,Medium,Project
+04-11-2026,Sharing FileHandle Fix K5BMC Code,Shared code fix for K5BMC file handle,High,Design
+05-11-2026,Process documentation updates,Updated SDSC SCTC and SRS documents,Medium,Project
