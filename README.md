@@ -55,7 +55,7 @@ Generate a new key with `python encrypt_decrypt.py generate`.
   1. Clone the repo
   2. Decrypt `Input/tasks.csv.enc` using the `ENCRYPTION_KEY` secret
   3. Parse the CSV tasks
-  4. Log into Cerebrum P3 (`CEREBRUM_EMAIL`, `CEREBRUM_PASSWORD`)
+  4. Log into Cerebrum P3 at `CEREBRUM_URL` (`CEREBRUM_EMAIL`, `CEREBRUM_PASSWORD`)
   5. Create each task in Cerebrum
   6. Log results to `Output/Daily_Reports/`
   7. Securely delete the decrypted file
@@ -71,7 +71,7 @@ Daily execution creates logs in `Output/Daily_Reports/`:
 
 ## 🔐 Security
 
-- `ENCRYPTION_KEY`, `CEREBRUM_EMAIL` and `CEREBRUM_PASSWORD` are stored as secrets in the cloud environment
+- `ENCRYPTION_KEY`, `CEREBRUM_EMAIL` and `CEREBRUM_PASSWORD` are stored as secrets (`CEREBRUM_URL` is a plain variable) in the cloud environment
 - Task data is committed only in encrypted form (`tasks.csv.enc`)
 - The decrypted CSV is deleted after every run
 - Never committed to GitHub

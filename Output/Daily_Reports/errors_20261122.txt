@@ -1,3 +1,6 @@
-Run 2026-11-22T06:29:32Z: ABORTED before any task was created.
-ENCRYPTION_KEY, CEREBRUM_EMAIL and CEREBRUM_PASSWORD are not present in the environment.
-Input/tasks.csv.enc could not be decrypted; no login to Cerebrum P3 attempted. 0 tasks created.
+Run 2026-11-22T06:52:34Z: BLOCKED before any task was created.
+Cause: the Cerebrum P3 URL is not configured. It is not in the repo, README, IMPLEMENTATION_GUIDE.md or the environment (no CEREBRUM_URL).
+ENCRYPTION_KEY, CEREBRUM_EMAIL and CEREBRUM_PASSWORD were present in this run.
+Input/tasks.csv.enc was not decrypted and no login was attempted. 0 tasks created, 0 attempted.
+Action needed: set CEREBRUM_URL (login/base URL) in the environment and allow that host on the network policy if required.
+(Supersedes the 06:29:32Z entry, which wrongly reported the secrets as missing.)
