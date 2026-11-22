@@ -1,5 +1,12 @@
 Date,Title,Description,Severity,Billing_Type
-02-11-2026,Updated comments in K5D documents,Fixed documentation for K5D module,High,Project
-03-11-2026,Meeting with TQCert,Attended certification review meeting,Medium,Project
-04-11-2026,Sharing FileHandle Fix K5BMC Code,Shared code fix for K5BMC file handle,High,Design
-05-11-2026,Process documentation updates,Updated SDSC SCTC and SRS documents,Medium,Project
+02-11-2026,Updated comments in K5D documents,Fixed and updated documentation comments in K5D module,High,Project
+03-11-2026,Meeting with TQCert,Attended certification review meeting with TQCert team,Medium,Project
+04-11-2026,FileHandle Fix K5BMC Code,Shared code fix for K5BMC file handle issue and DebugLog updates,High,Design
+05-11-2026,Process documentation updates,Updated SDSC SCTC and SRS process documentation,Medium,Project
+11-11-2026,DCR 45 EI Communication Support,Extended EI communication support from single port to 8 ports,High,Project
+11-11-2026,DCR 44 Ethernet Connectivity Status,Added primary/secondary EI-to-VDU Ethernet connectivity status display,High,Project
+12-11-2026,Manual update with DCR 44,Applied manual updates following DCR 44 implementation,Medium,Project
+14-11-2026,K5BMC Shared with BitHeld Fix,Shared updated K5BMC with BitHeld and MT team,High,Design
+14-11-2026,Updated cylomatic K5D,Updated cyclomatic complexity analysis for K5D module,Medium,Project
+16-11-2026,CodeReview and IfnDef Implementation,Shared code review and started implementing IfnDef directives for headers,High,Project
+18-11-2026,IfnDef Directives and Static Analysis,Continuing IfnDef implementation and Static Analysis fixes,High,Project
