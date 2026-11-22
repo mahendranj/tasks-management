@@ -1,5 +1,5 @@
-Run 2026-11-22T06:52:34Z
-Status: BLOCKED (Cerebrum P3 URL unknown)
+Run 2026-11-22T06:53:33Z
+Status: BLOCKED (Cerebrum P3 unreachable: connection reset at TLS handshake on port 44444)
 Tasks parsed: 0 (decryption not attempted)
 Tasks created: 0
 Tasks failed: 0

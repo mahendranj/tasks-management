@@ -1,6 +1,7 @@
-Run 2026-11-22T06:52:34Z: BLOCKED before any task was created.
-Cause: the Cerebrum P3 URL is not configured. It is not in the repo, README, IMPLEMENTATION_GUIDE.md or the environment (no CEREBRUM_URL).
-ENCRYPTION_KEY, CEREBRUM_EMAIL and CEREBRUM_PASSWORD were present in this run.
-Input/tasks.csv.enc was not decrypted and no login was attempted. 0 tasks created, 0 attempted.
-Action needed: set CEREBRUM_URL (login/base URL) in the environment and allow that host on the network policy if required.
-(Supersedes the 06:29:32Z entry, which wrongly reported the secrets as missing.)
+Run 2026-11-22T06:53:33Z: BLOCKED before any task was created.
+Cerebrum P3 URL provided by user: https://enterpriseapps.tsts.in:44444/cerebrump3/web/
+Host enterpriseapps.tsts.in was added to the environment network allowlist.
+Connection test: proxy CONNECT to enterpriseapps.tsts.in:44444 returned 200, then the TLS handshake failed:
+  curl: (35) Recv failure: Connection reset by peer (repeated 6 times over ~2 minutes)
+Possible causes (not confirmed): the server is not reachable from the cloud (internal/VPN-only or IP-restricted), or the proxy does not pass non-443 ports.
+Secrets were present. Input/tasks.csv.enc was not decrypted and no login was attempted. 0 tasks created, 0 attempted.
