@@ -2,9 +2,13 @@
 
 ## 📊 Input File Format
 
-Your task files are structured as:
-```
-DD-MM-YYYY
+Tasks are read from `Input/tasks.csv.enc` (Fernet-encrypted CSV) with columns:
+`Title, Description, Due Date, Severity, Billing Type`.
+Assignee (Mahendran J), Status (Not Started) and Task_Type (Production) are set
+automatically. The old `Input/TODO *.txt` files are kept as an archive only.
+
+Encrypt/decrypt with `encrypt_decrypt.py` using the `ENCRYPTION_KEY` environment variable.
+
 ----------
 Task description 1
 Task description 2
@@ -73,11 +77,7 @@ git push -u origin main
      - Other custom fields?
 
 3. **Task Mapping:**
-   - How to map your .txt format to Cerebrum fields?
-   - Example:
-     - Date (DD-MM-YYYY) → Due Date
-     - Description text → Task Title / Description
-     - Default Project/Priority/Assignee?
+   - CSV columns map 1:1: Title, Description, Due Date, Severity, Billing Type
 
 ### STEP 3: Cloud Routine Creation
 
@@ -86,8 +86,8 @@ Once you provide the information above, I will:
 1. Create cloud routine configuration
 2. Set schedule: 8:30 AM IST (3:00 AM UTC), Weekdays
 3. Configure browser automation to:
-   - Read .txt files from GitHub Input folder
-   - Parse task details
+   - Decrypt and read Input/tasks.csv.enc
+   - Parse CSV tasks
    - Log into Cerebrum P3
    - Create task for each entry
    - Log results to Output folder
