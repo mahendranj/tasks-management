@@ -5,3 +5,8 @@ Tasks created: 0
 Tasks failed: 0
 Decrypted file: never created, nothing to delete
 See errors_20261122.txt
+
+Run 2026-11-22T14:46:52Z
+Status: BLOCKED (unreachable, connection reset)
+Tasks created: 0
+Decrypted file: never created
