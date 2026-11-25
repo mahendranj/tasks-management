@@ -1,0 +1,5 @@
+Run 2026-11-25T03:04:22Z
+Status: BLOCKED (unreachable, connection reset)
+Tasks parsed: 0
+Tasks created: 0
+Decrypted file: never created
