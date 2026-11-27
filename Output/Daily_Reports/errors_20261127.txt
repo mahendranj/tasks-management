@@ -1,0 +1,1 @@
+Run 2026-11-27T03:04:10Z: BLOCKED. Connection to Cerebrum (port 44444) reset by agent proxy (ws_closed_mid_exchange). Local decryption failed: python cryptography broken (_cffi_backend missing; pip reinstall did not help). 0 tasks created. No decrypted file exists.
